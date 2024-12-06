@@ -51,10 +51,10 @@ btnHold.addEventListener("click", () => {
 });
 
 btnNew.addEventListener("click", () => {
-  let currentScore = 0;
-  let activePlayer = 0;
-  let score = [0, 0];
-  let gameOver = true;
+  currentScore = 0;
+  activePlayer = 0;
+  score = [0, 0];
+  gameOver = true;
   document.getElementById(`current--0`).textContent = 0;
   document.getElementById(`current--1`).textContent = 0;
   document.getElementById(`score--0`).textContent = 0;
